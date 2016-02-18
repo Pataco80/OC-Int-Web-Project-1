@@ -1,0 +1,408 @@
+@charset "UTF-8";
+@import url("Industrie_Inc_W00_Bevel/stylesheet.css");
+/* CSS Document */
+@font-face {
+	font-family: 'Industrie Inc W00 Bevel';
+	src: url('../fonts/Industrie_Inc_W00_Bevel/Industrie Inc W00 Bevel.eot');
+	src: url('../fonts/Industrie_Inc_W00_Bevel/Industrie Inc W00 Bevel.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Industrie_Inc_W00_Bevel/Industrie Inc W00 Bevel.woff') format('woff'),
+url('../fonts/Industrie_Inc_W00_Bevel/Industrie Inc W00 Bevel.ttf') format('truetype'),
+url('../fonts/Industrie_Inc_W00_Bevel/Industrie Inc W00 Bevel.svg') format('svg');
+}
+
+html {
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+form fieldset legend {
+	padding-right: 15px;
+	padding-left: 15px;
+	font: italic 1.2em "Industrie Inc W00 Bevel";
+	text-decoration: underline;
+}
+form fieldset #label-name  {
+	margin-top: -10px;
+}
+form button  {
+	padding: 10px;
+	background-image: url(../img/background-nav.png);
+	background-repeat: repeat-x;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 30px;
+	border: 0px none #000000;
+	color: #FFFFFF;
+	font: italic 1em/0em "Industrie Inc W00 Bevel";
+	vertical-align: text-top;
+	-webkit-box-shadow: 2px 2px 3px #002a82;
+	box-shadow: 2px 2px 3px #002a82;
+	background-position: center;
+	text-align: center;
+	text-decoration: underline;
+}
+form button:hover {
+	background-image: url(../img/background-nav-hover.png);
+	-webkit-box-shadow: 0px 0px 8px #000000;
+	box-shadow: 0px 0px 8px #000000;
+}
+
+form input {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+form textarea {
+	width: 100%;
+	resize: none;
+	height: 90px;
+}
+
+footer form #buttons {
+	display: flex;
+	justify-content: space-around;
+	align-self: flex-end;
+	width: 100%;
+}
+
+.section-projet .project {
+}
+footer  {
+	background-color: #0053FF;
+	width: 100%;
+	right: 0px;
+	left: 0px;
+	position: absolute;
+	padding: 15px;
+}
+
+footer h3 {
+}
+
+#section3 #projets .project {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	font: 100%/1.5 "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	background-color: #333333;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Industrie Inc W00 Bevel";
+	font-style: italic;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	text-decoration: underline;
+	color: #0053FF;
+	width: 100%;
+}
+
+#section1 h2 {
+	font-size: 2.2em;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 1.3rem;
+	margin-top: 15px;
+}
+
+#section1 h3 {
+	font-style: normal;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	z-index: 1;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	flex-direction: column;
+	-webkit-box-shadow: 0 30px 100px #171717;
+	box-shadow: 0 30px 100px #171717;
+	position: fixed;
+	font-family: "Industrie Inc W00 Bevel";
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	background-color: #000000;
+}
+
+header #entete {
+	flex-direction: column;
+	display: flex;
+	max-width: 1200px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+header #logo {
+	height: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 312px;
+}
+
+header #entete p {
+	margin-top: 15px;
+	font-style: italic;
+	line-height: 0.8em;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+header nav {
+	display: none;
+	font-family: "Industrie Inc W00 Bevel";
+	height: 60px;
+	font-style: italic;
+}
+
+nav ul {
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	background-repeat: repeat-x;
+	background-image: url(../img/background-nav.png);
+}
+
+nav ul li {
+	flex-direction: column;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+nav ul li  a {
+	text-align: center;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	text-decoration: underline;
+	align-content: center;
+	padding-top: 3px;
+}
+nav ul li:hover  {
+	background: url(../img/background-nav-hover.png);
+	background-repeat: repeat-x;
+}
+h3 small {
+	font-size: 60%;
+	margin-top: 30px;
+}
+nav ul li:active   {
+	font-weight: bold;
+	background-image: url(../img/background-nav-active.png) !important;
+	background-repeat: repeat-x;
+}
+
+header, section, footer, aside, article {
+	display: flex;
+	flex-direction: column;
+}
+section h3 , section section h3{
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+#section1 img {
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+article h4 {
+	justify-content: flex-start;
+}
+
+section {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	background-color: #FF0004;
+	margin-bottom: 25px;
+	width: 100%;
+}
+#section1  {
+	margin-top: 200px;
+}
+section > section {
+	padding: 0;
+	margin-bottom: 0px;
+}
+
+section hr {
+	margin-top: 15px;
+}
+
+#container footer h3 {
+	color: #fff;
+	font-size: 2em;
+}
+
+footer form {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	max-width: 600px;
+}
+form fieldset {
+	display: flex;
+	width: 100%;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+
+@media only screen and (min-width:768px){
+
+body {
+	background-image: url(../img/background-991w.jpg);
+}
+
+header {
+	background-image: url(../img/background-header-991w.jpg);
+}
+
+
+header #entete {
+	flex-direction: row;
+}
+
+header #logo {
+	height: auto;
+	width: 312px;
+	margin-left: 0px;
+}
+
+header #entete p {
+	align-self: flex-end;
+}
+
+header nav {
+	display: flex;
+	margin-top: 25px;
+}
+
+#section1 {
+	margin-top: 250px;
+}
+
+#section1 img {
+	max-width: 800px;
+}
+
+#section1 h2 {
+	font-size: 2.2em;
+	margin-bottom: 15px;
+}
+.section-projet  {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+form fieldset {
+	display: flex;
+	width: 48%;
+	flex-direction: row;
+	align-self: flex-start;
+	justify-content: space-around;
+}
+
+footer form {
+	display: flex;
+	width: 100%;
+	max-width: 1000px;
+	flex-direction: row;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+form textarea {
+	width: 100%;
+	resize: none;
+	height: 118px;
+}
+	
+
+}
+
+@media screen and (min-width:991px){
+
+header {
+	background-image: url(../img/background-header-1200w-up.jpg) !important;
+	background-position: left top;
+	background-attachment: fixed;
+}
+
+body {
+	background-position: left top;
+	background-attachment: fixed;
+	background-image: url(../img/background-1199w.jpg);
+}
+
+#section1 img {
+	max-width: 850px;
+}
+}
+
+@media screen and (min-width:1200px){
+
+body {
+	background-image: url(../img/background-1200w-up.jpg);
+}
+}

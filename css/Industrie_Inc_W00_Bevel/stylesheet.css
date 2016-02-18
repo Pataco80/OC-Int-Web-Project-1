@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Industrie Inc W00 Bevel';
+	src: url('Industrie Inc W00 Bevel.eot');
+	src: url('Industrie Inc W00 Bevel.eot?#iefix') format('embedded-opentype'),
+		url('Industrie Inc W00 Bevel.woff') format('woff'),
+		url('Industrie Inc W00 Bevel.ttf') format('truetype'),
+		url('Industrie Inc W00 Bevel.svg') format('svg');
+}
